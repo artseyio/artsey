@@ -1,1 +1,1 @@
-# artsey_docs
+# ARTSEY
