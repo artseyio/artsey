@@ -1,6 +1,6 @@
 ---
 title: The Alpha Combos
-weight: 10
+date: "2020-11-27"
 ---
 
 # Memorizing the Alpha Combos
