@@ -1,0 +1,333 @@
+- b
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:3
+    y:1
+- c
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:1
+    y:1
+- d
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:0
+  - x:2
+    y:0
+- f
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:0
+- g
+  layer: 0
+  combo:
+  - x:1
+    y:0
+  - x:2
+    y:0
+- h
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:2
+    y:0
+- i
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:2
+    y:1
+- u
+  layer: 0
+  combo:
+  - x:1
+    y:1
+  - x:2
+    y:1
+- k
+  layer: 0
+  combo:
+  - x:1
+    y:1
+  - x:3
+    y:1
+- l
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:1
+    y:1
+  - x:2
+    y:1
+- m
+  layer: 0
+  combo:
+  - x:1
+    y:1
+  - x:2
+    y:1
+  - x:3
+    y:1
+- n
+  layer: 0
+  combo:
+  - x:2
+    y:1
+  - x:3
+    y:1
+- p
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:2
+    y:1
+  - x:3
+    y:1
+- q
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:2
+    y:0
+  - x:3
+    y:0
+- j
+  layer: 0
+  combo:
+  - x:2
+    y:0
+  - x:3
+    y:0
+- v
+  layer: 0
+  combo:
+  - x:1
+    y:0
+  - x:3
+    y:0
+- w
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:3
+    y:0
+-  x
+  layer: 0
+  combo:
+  - x:1
+    y:0
+  - x:2
+    y:0
+  - x:3
+    y:0
+- z
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:0
+  - x:2
+    y:0
+  - x:3
+    y:0
+- tab
+  layer: 0
+  combo:
+  - x:3
+    y:1
+  - x:0
+    y:0
+  - x:1
+    y:0
+  - x:2
+    y:0
+- escape
+  layer: 0
+  combo:
+  - x:3
+    y:1
+  - x:0
+    y:0
+  - x:1
+    y:0
+- space
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:1
+    y:1
+  - x:2
+    y:1
+  - x:3
+    y:1
+- enter
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:0
+    y:1
+- backspace
+  layer: 0
+  combo:
+  - x:1
+    y:0
+  - x:0
+    y:1
+- one_shot_control
+  layer: 0
+  combo:
+  - x:3
+    y:0
+  - x:0
+    y:1
+- one_shot_alt
+  layer: 0
+  combo:
+  - x:3
+    y:0
+  - x:2
+    y:1
+- one_shot_gui
+  layer: 0
+  combo:
+  - x:3
+    y:0
+  - x:1
+    y:1
+- lock_shift
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:1
+  - x:2
+    y:1
+  - x:3
+    y:1
+- one_shot_shift
+  layer: 0
+  combo:
+  - x:0
+    y:1
+  - x:1
+    y:0
+  - x:2
+    y:0
+  - x:3
+    y:0
+- single_quote
+  layer: 0
+  combo:
+  - x:1
+    y:1
+  - x:2
+    y:0
+  - x:3
+    y:0
+- comma
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:1
+- period
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:2
+    y:1
+- slash
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:3
+    y:1
+- number_7
+  layer: {numbers}
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:0
+- number_8
+  la
+    yer: {numbers}
+  combo:
+  - x:1
+    y:0
+  - x:2
+    y:0
+- number_9
+  layer: {numbers}
+  combo:
+  - x:0
+    y:1
+  - x:1
+    y:1
+- number_0
+  layer: {numbers}
+  combo:
+  - x:1
+    y:1
+  - x:2
+    y:1
+- reset_keyboard
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:1
+    y:0
+  - x:2
+    y:0
+  - x:3
+    y:0
+  - x:0
+    y:1
+  - x:1
+    y:1
+  - x:2
+    y:1
+  - x:3
+    y:1
+- toggle_mouse_layer
+  layer: 0
+  combo:
+  - x:0
+    y:0
+  - x:2
+    y:0
+  - x:1
+    y:1
+- toggle_base_layer
+  layer: {mouse}
+  combo:
+  - x:0
+    y:0
+  - x:2
+    y:0
+  - x:1
+    y:1
