@@ -3,6 +3,7 @@
 baseURL = 'https://gleorepo.github.io/'
 title = 'ARTSEY'
 theme = 'hugo-book'
+staticDir = "static"
 
 # Book configuration
 disablePathToLower = true
