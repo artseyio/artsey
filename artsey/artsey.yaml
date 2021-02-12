@@ -1,0 +1,726 @@
+#####
+# Instructions
+#####
+# - When updating this file you MUST increase the version number
+# - Please replace the contents of the changelog with ALL changes made
+# - Run the generator script to ensure this file is valid and outpus proper ARTSEY documentation
+# - Publish the changes as a Pull Request to the main ARTSEY repo including the markdown output from the generator
+#####
+# Version of ARTSETY this file defines
+#####
+version: v0.8
+#####
+# Changelog
+#####
+changelog:
+  - Enter is now A+R+T+S
+  - Z is now A+Y+I+O
+  - Shift lock is now A+E
+  - Add caps lock as A+R+E+Y
+  - Add question mark to O on symbols layer
+  - Moved page up/down to navigation layer
+  - Add mouse wheel up/down to mouse layer
+  - Add 'custom' layer so users can add additional items if desired (included custom layer is an *example*)
+  - Custom layer key binding is S+O
+  - Enhance F1-12 so they are on layers off the number layer and ensure all 12 are present
+  - Make layers activate when held
+  - Convert all mod keys (shift, ctrl, etc) to be leader keys
+  - Add layer scopes to keys, including a 'global scope'
+  - Layout ctrl/alt/gui as LEFT side keys to avoid possible confusion when right/left forms of these keys makes a difference for users
+#####
+# Timeouts (in miliseconds) recommended as defaults for firmware implementations
+#####
+timeouts:
+  - combo: &timeout_combo 250
+  - hold: &timeout_hold 500
+  - leader_key: &timeout_leader_key 1000
+  - layer_hold: &timeout_layer_hold 2000
+#####
+# Layers used by artsey
+#####
+layers:
+  - &layer_global 
+    layer: global
+    index: -1
+  - &layer_base 
+    layer: base
+    index: 0
+  - &layer_numbers
+    layer: numbers
+    index: 1
+  - &layer_symbols 
+    layer: symbols
+    index: 2
+  - &layer_parentheticals
+    layer: parentheticals
+    index: 3
+  - &layer_navigation
+    layer: navigation
+    index: 4
+  - &layer_f_one_six
+    layer: f_one_six
+    index: 5
+  - &layer_f_seven_twelve 
+    layer: f_seven_twelve
+    index: 6
+  - &layer_mouse
+    layer: mouse
+    index: 7
+  - &layer_custom
+    layer: custom
+    index: 8
+# The main ARTSEY key positions
+#   The x,y coordinates are ZERO indexed starting in the upper left most key position
+#     0,0  0,1  0,2  0,3
+#     1,0  1,1  1,2  1,3
+keys:
+  - &key_a
+    key: a
+    position:
+      left:
+        &key_a_left
+        x: 3
+        y: 0
+      right:
+        &key_a_right
+        x: 0
+        y: 0
+  - &key_r
+    key: r
+    position: 
+      left:
+        &key_r_left
+        x: 2
+        y: 0
+      right:
+        &key_r_right
+        x: 1
+        y: 0
+  - &key_t
+    key: t
+    position:
+      left:
+        &key_t_left
+        x: 1
+        y: 0
+      right:
+        &key_t_right
+        x: 2
+        y: 0
+  - &key_s
+    key: s
+    position:
+      left:
+        &key_s_left
+        x: 0
+        y: 0
+      right:
+        &key_s_right
+        x: 3
+        y: 0
+  - &key_e
+    key: e
+    position:
+      left:
+        &key_e_left
+        x: 3
+        y: 1
+      right:
+        &key_e_right
+        x: 0
+        y: 1
+  - &key_y
+    key: y
+    position:
+      left:
+        &key_y_left
+        x: 2
+        y: 1
+      right:
+        &key_y_right
+        x: 1
+        y: 1
+  - &key_i
+    key: i
+    position:
+      left:
+        &key_i_left
+        x: 1
+        y: 1
+      right:
+        &key_i_right
+        x: 2
+        y: 1
+  - &key_o
+    key: o
+    position:
+      left:
+        &key_o_left
+        x: 0
+        y: 1
+      right:
+        &key_o_right
+        x: 3
+        y: 1
+#####
+# The main ARTSEY key map
+#   Please update BOTH left and right handed layouts when making changes
+#####
+keymap:
+#####
+# Layer Toggles
+#####
+  - description: layer_numbers
+    layer: *layer_base
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: layer_symbols
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left ]
+      right: [ *key_e_right ]
+  - description: layer_parentheticals
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left ]
+      right: [ *key_a_right ]
+  - description: layer_navigation
+    layer: *layer_base
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+  - description: layer_f_one_six
+    layer: *layer_numbers
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: layer_f_seven_twelve
+    layer: *layer_numbers
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+  - description: layer_mouse
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_t_left , *key_y_left ]
+      right: [ *key_a_right , *key_t_right , *key_y_right ]
+  - description: layer_custom
+    layer: *layer_custom
+    combo:
+      left: [ *key_s_left , *key_o_left ]
+      right: [ *key_s_right , *key_o_right ]
+#####
+# Misc/Global/General Computer Keys
+#####
+  - description: shift_left
+    layer: *layer_global
+    combo:
+      left: [ *key_r_left , *key_t_left , *key_s_left , *key_e_left ]
+      right: [ *key_r_right , *key_t_right , *key_s_right , *key_e_right ]
+  - description: enter
+    layer: *layer_global
+    combo:
+      left: [ *key_a_left , *key_r_left , *key_t_left , *key_s_left ]
+      right: [ *key_a_right , *key_r_right , *key_t_right , *key_s_right ]
+  - description: space
+    layer: *layer_global
+    combo:
+      left: [ *key_e_left , *key_y_left , *key_i_left , *key_o_left ]
+      right: [ *key_e_right , *key_y_right , *key_i_right , *key_o_right ]
+  - description: backspace
+    layer: *layer_global
+    combo: 
+      left: [ *key_r_left , *key_e_left ]
+      right: [ *key_r_right , *key_e_right ]
+  - description: escape
+    layer: *layer_global
+    combo:
+      left: [ *key_a_left , *key_r_left , *key_o_left ]
+      right: [ *key_a_right , *key_r_right , *key_o_right ]
+  - description: control_left
+    layer: *layer_global
+    combo:
+      left: [ *key_s_left , *key_e_left ]
+      right: [ *key_s_right , *key_e_right ]
+  - description: gui_left
+    layer: *layer_global
+    combo:
+      left: [ *key_s_left , *key_y_left ]
+      right: [ *key_s_right , *key_y_right ]
+  - description: alt_left
+    layer: *layer_global
+    combo:
+      left: [ *key_s_left , *key_i_left ]
+      right: [ *key_s_right , *key_i_right ]
+  - description: shift_lock
+    layer: *layer_global
+    combo:
+      left: [ *key_a_left , *key_e_left ]
+      right: [ *key_a_right , *key_e_right ]
+  - description: caps_lock
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_r_left , *key_e_left , *key_y_left ]
+      right: [ *key_a_right , *key_r_right , *key_e_right , *key_y_right ]
+#####
+# English Alphabet
+#####
+  - description: a
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left ]
+      right: [ *key_a_right ]
+  - description: b
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left , *key_o_left ]
+      right: [ *key_e_right , *key_o_right ]
+  - description: c
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left , *key_y_left ]
+      right: [ *key_e_right , *key_y_right ]
+  - description: d
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_r_left , *key_t_left ]
+      right: [ *key_a_right , *key_r_right , *key_t_right ]
+  - description: e
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left ]
+      right: [ *key_e_right ]
+  - description: f
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_r_left ]
+      right: [ *key_a_right , *key_r_right ]
+  - description: g
+    layer: *layer_base
+    combo:
+      left: [ *key_r_left , *key_t_left ]
+      right: [ *key_r_right , *key_t_right ]
+  - description: h
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left , *key_i_left ]
+      right: [ *key_e_right , *key_i_right ]
+  - description: i
+    layer: *layer_base
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_i_right ]
+  - description: j
+    layer: *layer_base
+    combo:
+      left: [ *key_t_left , *key_s_left ]
+      right: [ *key_t_right , *key_s_right ]
+  - description: k
+    layer: *layer_base
+    combo:
+      left: [ *key_y_left , *key_o_left ]
+      right: [ *key_y_right , *key_o_right ]
+  - description: l
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left , *key_y_left , *key_i_left ]
+      right: [ *key_e_right , *key_y_right , *key_i_right ]
+  - description: m
+    layer: *layer_base
+    combo:
+      left: [ *key_y_left , *key_i_left , *key_o_left ]
+      right: [ *key_y_right , *key_i_right , *key_o_right ]
+  - description: n
+    layer: *layer_base
+    combo:
+      left: [ *key_i_left , *key_o_left ]
+      right: [ *key_i_right , *key_o_right ]
+  - description: o
+    layer: *layer_base
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+  - description: p
+    layer: *layer_base
+    combo:
+      left: [ *key_e_left , *key_i_left , *key_o_left ]
+      right: [ *key_e_right , *key_i_right , *key_o_right ]
+  - description: q
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_t_left , *key_s_left ]
+      right: [ *key_a_right , *key_t_right , *key_s_right ]
+  - description: r
+    layer: *layer_base
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_r_right ]
+  - description: s
+    layer: *layer_base
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: t
+    layer: *layer_base
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_t_right ]
+  - description: u
+    layer: *layer_base
+    combo:
+      left: [ *key_y_left , *key_i_left ]
+      right: [ *key_y_right , *key_i_right ]
+  - description: v
+    layer: *layer_base
+    combo:
+      left: [ *key_r_left , *key_s_left ]
+      right: [ *key_r_right , *key_s_right ]
+  - description: w
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_s_left ]
+      right: [ *key_a_right , *key_s_right ]
+  - description: x
+    layer: *layer_base
+    combo:
+      left: [ *key_r_left , *key_t_left , *key_s_left ]
+      right: [ *key_r_right , *key_t_right , *key_s_right ]
+  - description: y
+    layer: *layer_base
+    combo:
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
+  - description: z
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_y_left , *key_i_left , *key_o_left ]
+      right: [ *key_a_right , *key_y_right , *key_i_right , *key_o_right ]
+#####
+# Numbers
+#####
+  - description: 0
+    layer: *layer_numbers 
+    combo:
+      left: &key_number_zero_left [ *key_y_left , *key_i_left ]
+      right: &key_number_zero_right [ *key_y_right , *key_i_right ]
+  - description: 1
+    layer: *layer_numbers
+    combo:
+      left: &key_number_one_left [ *key_a_left ]
+      right: &key_number_one_right [ *key_a_right ]
+  - description: 2
+    layer: *layer_numbers
+    combo:
+      left: &key_number_two_left [ *key_r_left ]
+      right: &key_number_two_right [ *key_r_right ]
+  - description: 3
+    layer: *layer_numbers
+    combo:
+      left: &key_number_three_left [ *key_t_left ]
+      right: &key_number_three_right [ *key_t_right ]
+  - description: 4
+    layer: *layer_numbers
+    combo:
+      left: &key_number_four_left [ *key_e_left ]
+      right: &key_number_four_right [ *key_e_right ]
+  - description: 5
+    layer: *layer_numbers
+    combo:
+      left: &key_number_five_left [ *key_y_left ]
+      right: &key_number_five_right [ *key_y_right ]
+  - description: 6
+    layer: *layer_numbers
+    combo:
+      left: &key_number_six_left [ *key_i_left ]
+      right: &key_number_six_right [ *key_i_right ]
+  - description: 7
+    layer: *layer_numbers
+    combo:
+      left: &key_number_seven_left [ *key_a_left , *key_r_left ]
+      right: &key_number_seven_right [ *key_a_right , *key_r_right ]
+  - description: 8
+    layer: *layer_numbers
+    combo:
+      left: &key_number_eight_left [ *key_r_left , *key_t_left ]
+      right: &key_number_eight_right [ *key_r_right , *key_t_right ]
+  - description: 9
+    layer: *layer_numbers
+    combo:
+      left: &key_number_nine_left [ *key_e_left , *key_y_left ]
+      right: &key_number_nine_right [ *key_e_right , *key_y_right ]
+#####
+# Punctuation/Special Chars
+#####
+  - description: "'"
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_y_left , *key_i_left ]
+      right: [ *key_a_right , *key_y_right , *key_i_right ]
+  - description: "."
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_y_left ]
+      right: [ *key_a_right , *key_y_right ]
+  - description: ","
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_i_left ]
+      right: [ *key_a_right , *key_i_right ]
+  - description: "/"
+    layer: *layer_base
+    combo:
+      left: [ *key_a_left , *key_o_left ]
+      right: [ *key_a_right , *key_o_right ]
+  - description: "("
+    layer: *layer_parentheticals
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_r_right ]
+  - description: ")"
+    layer: *layer_parentheticals
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_t_right ]
+  - description: "["
+    layer: *layer_parentheticals
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_y_right ]
+  - description: "]"
+    layer: *layer_parentheticals
+    combo:
+      left: [ *key_y_left ]
+      right: [ *key_i_right ]
+  - description: "{"
+    layer: *layer_parentheticals
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: "}"
+    layer: *layer_parentheticals
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+  - description: "\""
+    layer: *layer_symbols
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_r_right ]
+  - description: ";"
+    layer: *layer_symbols
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_t_right ]
+  - description: "`"
+    layer: *layer_symbols
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: "-"
+    layer: *layer_symbols
+    combo:
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
+  - description: "="
+    layer: *layer_symbols
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_i_right ]
+  - description: "?"
+    layer: *layer_symbols
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+#####
+# Navigation
+#####
+  - description: arrow_up
+    layer: *layer_navigation
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_r_right ]
+  - description: arrow_down
+    layer: *layer_navigation
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_i_right ]
+  - description: arrow_left
+    layer: *layer_navigation
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_e_right ]
+  - description: arrow_right
+    layer: *layer_navigation
+    combo:
+      left: [ *key_e_left ]
+      right: [ *key_i_right ]
+  - description: home
+    layer: *layer_navigation
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_a_right ]
+  - description: end
+    layer: *layer_navigation
+    combo:
+      left: [ *key_a_left ]
+      right: [ *key_t_right ]
+  - description: page_up
+    layer: *layer_navigation
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: page_down
+    layer: *layer_navigation
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+#####
+# Mouse
+#####
+  - description: mouse_move_up
+    layer: *layer_mouse
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_r_right ]
+  - description: mouse_move_down
+    layer: *layer_mouse
+    combo:
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
+  - description: mouse_move_left
+    layer: *layer_mouse
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_e_right ]
+  - description: mouse_move_right
+    layer: *layer_mouse
+    combo:
+      left: [ *key_e_left ]
+      right: [ *key_i_right ]
+  - description: mouse_button_1
+    layer: *layer_mouse
+    combo:
+      left: [ *key_a_left ]
+      right: [ *key_a_right ]
+  - description: mouse_button_2
+    layer: *layer_mouse
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_t_right ]
+  - description: mouse_wheel_up
+    layer: *layer_mouse
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: mouse_wheel_down
+    layer: *layer_mouse
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+#####
+# Function Keys
+#####
+  - description: F1
+    layer: *layer_f_one_six
+    combo:
+      left: *key_number_one_left
+      right: *key_number_one_right
+  - description: F2
+    layer: *layer_f_one_six
+    combo:
+      left: *key_number_two_left
+      right: *key_number_two_right
+  - description: F3
+    layer: *layer_f_one_six
+    combo:
+      left: *key_number_three_left
+      right: *key_number_three_right
+  - description: F4
+    layer: *layer_f_one_six
+    combo:
+      left: *key_number_four_left
+      right: *key_number_four_right
+  - description: F5
+    layer: *layer_f_one_six
+    combo:
+      left: *key_number_five_left
+      right: *key_number_five_right
+  - description: F6
+    layer: *layer_f_one_six
+    combo:
+      left: *key_number_six_left
+      right: *key_number_six_right
+  - description: F7
+    layer: *layer_f_seven_twelve
+    combo:
+      left: *key_number_one_left
+      right: *key_number_one_right
+  - description: F8
+    layer: *layer_f_seven_twelve
+    combo:
+      left: *key_number_two_left
+      right: *key_number_two_right
+  - description: F9
+    layer: *layer_f_seven_twelve
+    combo:
+      left: *key_number_three_left
+      right: *key_number_three_right
+  - description: F10
+    layer: *layer_f_seven_twelve
+    combo:
+      left: *key_number_four_left
+      right: *key_number_four_right
+  - description: F11
+    layer: *layer_f_seven_twelve
+    combo:
+      left: *key_number_five_left
+      right: *key_number_five_right
+  - description: F12
+    layer: *layer_f_seven_twelve
+    combo:
+      left: *key_number_six_left
+      right: *key_number_six_right
+#####
+# Custom Layer
+#####
+  - description: Mute
+    layer: *layer_custom
+    combo:
+      left: [ *key_a_left ]
+      right: [ *key_a_right ]
+  - description: Insert
+    layer: *layer_custom
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_r_right ]
+  - description: Right Control
+    layer: *layer_custom
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_t_right ]
+  - description: Volume Up
+    layer: *layer_custom
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
+  - description: Right Shift
+    layer: *layer_custom
+    combo:
+      left: [ *key_e_left ]
+      right: [ *key_e_right ]
+  - description: Print Screen
+    layer: *layer_custom
+    combo:
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
+  - description: Right Alt
+    layer: *layer_custom
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_i_right ]
+  - description: Volumn Down
+    layer: *layer_custom
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
