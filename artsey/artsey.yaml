@@ -532,6 +532,11 @@ keymap:
     combo:
       left: [ *key_o_left ]
       right: [ *key_o_right ]
+  - description: "!"
+    layer: *layer_symbols
+    combo:
+      left: [ *key_s_left ]
+      right: [ *key_s_right ]
 #####
 # Navigation
 #####
