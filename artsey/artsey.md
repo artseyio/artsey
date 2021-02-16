@@ -106,6 +106,7 @@
 | - | symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | = | symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
 | ? | symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| ! | symbols | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
 | arrow_up | navigation | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
 | arrow_down | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
 | arrow_left | navigation | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
