@@ -244,8 +244,9 @@ if not args.exclude_detailed_markdown:
             f.write(str(layer['index']).encode())
             f.write(b' |\n')
         f.write(b'\n')
-
-        f.write(b'| Character | Layer | Combo |\n')
-        f.write(b'| --------- | ----- | ----- |\n')
+        f.write(b'## Codes\n')
+        f.write(b'\n')
+        f.write(b'| Code | Layer | Combo |\n')
+        f.write(b'| ---- | ----- | ----- |\n')
         for code in data['keymap']:
             f.write(generate_combo_markdown(code))

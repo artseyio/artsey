@@ -19,24 +19,7 @@
 - Add layer scopes to keys, including a 'global scope'
 - Layout ctrl/alt/gui as LEFT side keys to avoid possible confusion when right/left forms of these keys makes a difference for users
 
-## Layer: global
-
-### Keys
-
-### Combos
-
-| Character | Layer | Combo |
-| --------- | ----- | ----- |
-| backspace | global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
-| control left | global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |
-| space | global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
-| escape | global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
-| shift lock | global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
-| enter | global | **Right**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br> |
-| alt left | global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| gui left | global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
-| shift left | global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
-## Layer: base
+## Layer: Global
 
 ### Keys
 
@@ -44,45 +27,32 @@
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- a | r | t | s |
- e | y | i | o |
+ Layer - Parentheticals | ⚪ | ⚪ | Layer - Numbers |
+ Layer - Symbols | ⚪ | ⚪ | Layer - Navigation |
 
 #### Left
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- s | t | r | a |
- o | i | y | e |
+ Layer - Numbers | ⚪ | ⚪ | Layer - Parentheticals |
+ Layer - Navigation | ⚪ | ⚪ | Layer - Symbols |
 
 ### Combos
 
 | Character | Layer | Combo |
 | --------- | ----- | ----- |
-| m | base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br> |
-| h | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br> |
-| n | base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br> |
-| u | base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br> |
-| q | base | **Right**<br>⚫⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚫<br>⚪⚪⚪⚪<br> |
-| v | base | **Right**<br>⚪⚫⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚫⚪<br>⚪⚪⚪⚪<br> |
-| k | base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br> |
-| p | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚫<br> |
-| g | base | **Right**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br> |
-| d | base | **Right**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br> |
-| ' | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚫⚪<br> |
-| l | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br> |
-| w | base | **Right**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| b | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br> |
-| c | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br> |
-| . | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br> |
-| / | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br> |
-| caps lock | base | **Right**<br>⚫⚫⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚫⚫<br> |
-| z | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚫⚫⚪<br> |
-| , | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br> |
-| x | base | **Right**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br> |
-| layer mouse | base | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
-| f | base | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br> |
-| j | base | **Right**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br> |
-## Layer: numbers
+| Control | Global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| Layer - Mouse | Global | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
+| Alt | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| Layer - Custom | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| Shift Lock | Global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
+| Space | Global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
+| Backspace | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
+| GUI | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
+| Enter | Global | **Right**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br> |
+| Shift | Global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
+| Escape | Global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
+## Layer: Base
 
 ### Keys
 
@@ -90,25 +60,70 @@
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- 1 | 2 | 3 | layer f one six |
- 4 | 5 | 6 | layer f seven twelve |
+ A | R | T | S |
+ E | Y | I | O |
 
 #### Left
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- layer f one six | 3 | 2 | 1 |
- layer f seven twelve | 6 | 5 | 4 |
+ S | T | R | A |
+ O | I | Y | E |
 
 ### Combos
 
 | Character | Layer | Combo |
 | --------- | ----- | ----- |
-| 7 | numbers | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br> |
-| 0 | numbers | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br> |
-| 8 | numbers | **Right**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br> |
-| 9 | numbers | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br> |
-## Layer: symbols
+| C | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br> |
+| P | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚫<br> |
+| W | Base | **Right**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br> |
+| M | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br> |
+| ' | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚫⚪<br> |
+| G | Base | **Right**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br> |
+| H | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br> |
+| / | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br> |
+| V | Base | **Right**<br>⚪⚫⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| N | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br> |
+| X | Base | **Right**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br> |
+| L | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br> |
+| Z | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚫⚫⚪<br> |
+| F | Base | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br> |
+| Caps Lock | Base | **Right**<br>⚫⚫⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚫⚫<br> |
+| U | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br> |
+| J | Base | **Right**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br> |
+| , | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br> |
+| . | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br> |
+| Q | Base | **Right**<br>⚫⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚫<br>⚪⚪⚪⚪<br> |
+| B | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br> |
+| D | Base | **Right**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br> |
+| K | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br> |
+## Layer: Numbers
+
+### Keys
+
+#### Right
+
+| C1 | C2 | C3 | C4 |
+| -- | -- | -- | -- |
+ 1 | 2 | 3 | Layer - F1 - F6 |
+ 4 | 5 | 6 | Layer - F7 - F12 |
+
+#### Left
+
+| C1 | C2 | C3 | C4 |
+| -- | -- | -- | -- |
+ Layer - F1 - F6 | 3 | 2 | 1 |
+ Layer - F7 - F12 | 6 | 5 | 4 |
+
+### Combos
+
+| Character | Layer | Combo |
+| --------- | ----- | ----- |
+| 9 | Numbers | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br> |
+| 7 | Numbers | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br> |
+| 0 | Numbers | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br> |
+| 8 | Numbers | **Right**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br> |
+## Layer: Symbols
 
 ### Keys
 
@@ -126,7 +141,7 @@
  ! | ; | " | ⚪ |
  ? | = | - | ⚪ |
 
-## Layer: parentheticals
+## Layer: Parentheticals
 
 ### Keys
 
@@ -144,7 +159,7 @@
  { | ( | ) | ⚪ |
  } | [ | ] | ⚪ |
 
-## Layer: navigation
+## Layer: Navigation
 
 ### Keys
 
@@ -152,17 +167,17 @@
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- home | arrow up | end | page up |
- arrow left | ⚪ | arrow right | page down |
+ Home | Up | End | Page Up |
+ Left | Down | Right | Page Down |
 
 #### Left
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- page up | home | arrow up | end |
- page down | arrow left | ⚪ | arrow right |
+ Page Up | Home | Up | End |
+ Page Down | Left | Down | Right |
 
-## Layer: f one six
+## Layer: F1 - F6
 
 ### Keys
 
@@ -180,7 +195,7 @@
  ⚪ | F3 | F2 | F1 |
  ⚪ | F6 | F5 | F4 |
 
-## Layer: f seven twelve
+## Layer: F7 - F12
 
 ### Keys
 
@@ -198,7 +213,7 @@
  ⚪ | F9 | F8 | F7 |
  ⚪ | F12 | F11 | F10 |
 
-## Layer: mouse
+## Layer: Mouse
 
 ### Keys
 
@@ -206,17 +221,17 @@
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- mouse button 1 | mouse move up | mouse button 2 | mouse wheel up |
- mouse move left | mouse move down | mouse move right | mouse wheel down |
+ Button 1 | Up | Button 2 | Wheel Up |
+ Left | Down | Right | Wheel Down |
 
 #### Left
 
 | C1 | C2 | C3 | C4 |
 | -- | -- | -- | -- |
- mouse wheel up | mouse button 2 | mouse move up | mouse button 1 |
- mouse wheel down | mouse move left | mouse move down | mouse move right |
+ Wheel Up | Button 2 | Up | Button 1 |
+ Wheel Down | Left | Down | Right |
 
-## Layer: custom
+## Layer: Custom
 
 ### Keys
 
@@ -234,8 +249,3 @@
  Volume Up | Right Control | Insert | Mute |
  Volumn Down | Right Alt | Print Screen | Right Shift |
 
-### Combos
-
-| Character | Layer | Combo |
-| --------- | ----- | ----- |
-| layer custom | custom | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |

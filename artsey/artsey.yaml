@@ -40,34 +40,34 @@ timeouts:
 #####
 layers:
   - &layer_global 
-    layer: global
+    layer: Global
     index: -1
   - &layer_base 
-    layer: base
+    layer: Base
     index: 0
   - &layer_numbers
-    layer: numbers
+    layer: Numbers
     index: 1
   - &layer_symbols 
-    layer: symbols
+    layer: Symbols
     index: 2
   - &layer_parentheticals
-    layer: parentheticals
+    layer: Parentheticals
     index: 3
   - &layer_navigation
-    layer: navigation
+    layer: Navigation
     index: 4
   - &layer_f_one_six
-    layer: f_one_six
+    layer: F1 - F6
     index: 5
   - &layer_f_seven_twelve 
-    layer: f_seven_twelve
+    layer: F7 - F12
     index: 6
   - &layer_mouse
-    layer: mouse
+    layer: Mouse
     index: 7
   - &layer_custom
-    layer: custom
+    layer: Custom
     index: 8
 # The main ARTSEY key positions
 #   The x,y coordinates are ZERO indexed starting in the upper left most key position
@@ -75,7 +75,7 @@ layers:
 #     1,0  1,1  1,2  1,3
 keys:
   - &key_a
-    key: a
+    key: A
     position:
       left:
         &key_a_left
@@ -86,7 +86,7 @@ keys:
         x: 0
         y: 0
   - &key_r
-    key: r
+    key: R
     position: 
       left:
         &key_r_left
@@ -97,7 +97,7 @@ keys:
         x: 1
         y: 0
   - &key_t
-    key: t
+    key: T
     position:
       left:
         &key_t_left
@@ -108,7 +108,7 @@ keys:
         x: 2
         y: 0
   - &key_s
-    key: s
+    key: S
     position:
       left:
         &key_s_left
@@ -119,7 +119,7 @@ keys:
         x: 3
         y: 0
   - &key_e
-    key: e
+    key: E
     position:
       left:
         &key_e_left
@@ -130,7 +130,7 @@ keys:
         x: 0
         y: 1
   - &key_y
-    key: y
+    key: Y
     position:
       left:
         &key_y_left
@@ -141,7 +141,7 @@ keys:
         x: 1
         y: 1
   - &key_i
-    key: i
+    key: I
     position:
       left:
         &key_i_left
@@ -152,7 +152,7 @@ keys:
         x: 2
         y: 1
   - &key_o
-    key: o
+    key: O
     position:
       left:
         &key_o_left
@@ -170,95 +170,95 @@ keymap:
 #####
 # Layer Toggles
 #####
-  - description: layer_numbers
-    layer: *layer_base
+  - description: Layer - Numbers
+    layer: *layer_global
     combo:
       left: [ *key_s_left ]
       right: [ *key_s_right ]
-  - description: layer_symbols
-    layer: *layer_base
+  - description: Layer - Symbols
+    layer: *layer_global
     combo:
       left: [ *key_e_left ]
       right: [ *key_e_right ]
-  - description: layer_parentheticals
-    layer: *layer_base
+  - description: Layer - Parentheticals
+    layer: *layer_global
     combo:
       left: [ *key_a_left ]
       right: [ *key_a_right ]
-  - description: layer_navigation
-    layer: *layer_base
+  - description: Layer - Navigation
+    layer: *layer_global
     combo:
       left: [ *key_o_left ]
       right: [ *key_o_right ]
-  - description: layer_f_one_six
+  - description: Layer - F1 - F6
     layer: *layer_numbers
     combo:
       left: [ *key_s_left ]
       right: [ *key_s_right ]
-  - description: layer_f_seven_twelve
+  - description: Layer - F7 - F12
     layer: *layer_numbers
     combo:
       left: [ *key_o_left ]
       right: [ *key_o_right ]
-  - description: layer_mouse
-    layer: *layer_base
+  - description: Layer - Mouse
+    layer: *layer_global
     combo:
       left: [ *key_a_left , *key_t_left , *key_y_left ]
       right: [ *key_a_right , *key_t_right , *key_y_right ]
-  - description: layer_custom
-    layer: *layer_custom
+  - description: Layer - Custom
+    layer: *layer_global
     combo:
       left: [ *key_s_left , *key_o_left ]
       right: [ *key_s_right , *key_o_right ]
 #####
 # Misc/Global/General Computer Keys
 #####
-  - description: shift_left
+  - description: Shift
     layer: *layer_global
     combo:
       left: [ *key_r_left , *key_t_left , *key_s_left , *key_e_left ]
       right: [ *key_r_right , *key_t_right , *key_s_right , *key_e_right ]
-  - description: enter
+  - description: Enter
     layer: *layer_global
     combo:
       left: [ *key_a_left , *key_r_left , *key_t_left , *key_s_left ]
       right: [ *key_a_right , *key_r_right , *key_t_right , *key_s_right ]
-  - description: space
+  - description: Space
     layer: *layer_global
     combo:
       left: [ *key_e_left , *key_y_left , *key_i_left , *key_o_left ]
       right: [ *key_e_right , *key_y_right , *key_i_right , *key_o_right ]
-  - description: backspace
+  - description: Backspace
     layer: *layer_global
     combo: 
       left: [ *key_r_left , *key_e_left ]
       right: [ *key_r_right , *key_e_right ]
-  - description: escape
+  - description: Escape
     layer: *layer_global
     combo:
       left: [ *key_a_left , *key_r_left , *key_o_left ]
       right: [ *key_a_right , *key_r_right , *key_o_right ]
-  - description: control_left
+  - description: Control
     layer: *layer_global
     combo:
       left: [ *key_s_left , *key_e_left ]
       right: [ *key_s_right , *key_e_right ]
-  - description: gui_left
+  - description: GUI
     layer: *layer_global
     combo:
       left: [ *key_s_left , *key_y_left ]
       right: [ *key_s_right , *key_y_right ]
-  - description: alt_left
+  - description: Alt
     layer: *layer_global
     combo:
       left: [ *key_s_left , *key_i_left ]
       right: [ *key_s_right , *key_i_right ]
-  - description: shift_lock
+  - description: Shift Lock
     layer: *layer_global
     combo:
       left: [ *key_a_left , *key_e_left ]
       right: [ *key_a_right , *key_e_right ]
-  - description: caps_lock
+  - description: Caps Lock
     layer: *layer_base
     combo:
       left: [ *key_a_left , *key_r_left , *key_e_left , *key_y_left ]
@@ -266,132 +266,132 @@ keymap:
 #####
 # English Alphabet
 #####
-  - description: a
+  - description: A
     layer: *layer_base
     combo:
       left: [ *key_a_left ]
       right: [ *key_a_right ]
-  - description: b
+  - description: B
     layer: *layer_base
     combo:
       left: [ *key_e_left , *key_o_left ]
       right: [ *key_e_right , *key_o_right ]
-  - description: c
+  - description: C
     layer: *layer_base
     combo:
       left: [ *key_e_left , *key_y_left ]
       right: [ *key_e_right , *key_y_right ]
-  - description: d
+  - description: D
     layer: *layer_base
     combo:
       left: [ *key_a_left , *key_r_left , *key_t_left ]
       right: [ *key_a_right , *key_r_right , *key_t_right ]
-  - description: e
+  - description: E
     layer: *layer_base
     combo:
       left: [ *key_e_left ]
       right: [ *key_e_right ]
-  - description: f
+  - description: F
     layer: *layer_base
     combo:
       left: [ *key_a_left , *key_r_left ]
       right: [ *key_a_right , *key_r_right ]
-  - description: g
+  - description: G
     layer: *layer_base
     combo:
       left: [ *key_r_left , *key_t_left ]
       right: [ *key_r_right , *key_t_right ]
-  - description: h
+  - description: H
     layer: *layer_base
     combo:
       left: [ *key_e_left , *key_i_left ]
       right: [ *key_e_right , *key_i_right ]
-  - description: i
+  - description: I
     layer: *layer_base
     combo:
       left: [ *key_i_left ]
       right: [ *key_i_right ]
-  - description: j
+  - description: J
     layer: *layer_base
     combo:
       left: [ *key_t_left , *key_s_left ]
       right: [ *key_t_right , *key_s_right ]
-  - description: k
+  - description: K
     layer: *layer_base
     combo:
       left: [ *key_y_left , *key_o_left ]
       right: [ *key_y_right , *key_o_right ]
-  - description: l
+  - description: L
     layer: *layer_base
     combo:
       left: [ *key_e_left , *key_y_left , *key_i_left ]
       right: [ *key_e_right , *key_y_right , *key_i_right ]
-  - description: m
+  - description: M
     layer: *layer_base
     combo:
       left: [ *key_y_left , *key_i_left , *key_o_left ]
       right: [ *key_y_right , *key_i_right , *key_o_right ]
-  - description: n
+  - description: N
     layer: *layer_base
     combo:
       left: [ *key_i_left , *key_o_left ]
       right: [ *key_i_right , *key_o_right ]
-  - description: o
+  - description: O
     layer: *layer_base
     combo:
       left: [ *key_o_left ]
       right: [ *key_o_right ]
-  - description: p
+  - description: P
     layer: *layer_base
     combo:
       left: [ *key_e_left , *key_i_left , *key_o_left ]
       right: [ *key_e_right , *key_i_right , *key_o_right ]
-  - description: q
+  - description: Q
     layer: *layer_base
     combo:
       left: [ *key_a_left , *key_t_left , *key_s_left ]
       right: [ *key_a_right , *key_t_right , *key_s_right ]
-  - description: r
+  - description: R
     layer: *layer_base
     combo:
       left: [ *key_r_left ]
       right: [ *key_r_right ]
-  - description: s
+  - description: S
     layer: *layer_base
     combo:
       left: [ *key_s_left ]
       right: [ *key_s_right ]
-  - description: t
+  - description: T
     layer: *layer_base
     combo:
       left: [ *key_t_left ]
       right: [ *key_t_right ]
-  - description: u
+  - description: U
     layer: *layer_base
     combo:
       left: [ *key_y_left , *key_i_left ]
       right: [ *key_y_right , *key_i_right ]
-  - description: v
+  - description: V
     layer: *layer_base
     combo:
       left: [ *key_r_left , *key_s_left ]
       right: [ *key_r_right , *key_s_right ]
-  - description: w
+  - description: W
     layer: *layer_base
     combo:
       left: [ *key_a_left , *key_s_left ]
       right: [ *key_a_right , *key_s_right ]
-  - description: x
+  - description: X
     layer: *layer_base
     combo:
       left: [ *key_r_left , *key_t_left , *key_s_left ]
       right: [ *key_r_right , *key_t_right , *key_s_right ]
-  - description: y
+  - description: Y
     layer: *layer_base
     combo:
       left: [ *key_y_left ]
       right: [ *key_y_right ]
-  - description: z
+  - description: Z
     layer: *layer_base
     combo:
       left: [ *key_a_left , *key_y_left , *key_i_left , *key_o_left ]
@@ -540,42 +540,42 @@ keymap:
 #####
 # Navigation
 #####
-  - description: arrow_up
+  - description: Up
     layer: *layer_navigation
     combo:
       left: [ *key_r_left ]
       right: [ *key_r_right ]
-  - description: arrow_down
+  - description: Down
     layer: *layer_navigation
     combo:
-      left: [ *key_i_left ]
-      right: [ *key_i_right ]
-  - description: arrow_left
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
+  - description: Left
     layer: *layer_navigation
     combo:
       left: [ *key_i_left ]
       right: [ *key_e_right ]
-  - description: arrow_right
+  - description: Right
     layer: *layer_navigation
     combo:
       left: [ *key_e_left ]
       right: [ *key_i_right ]
-  - description: home
+  - description: Home
     layer: *layer_navigation
     combo:
       left: [ *key_t_left ]
       right: [ *key_a_right ]
-  - description: end
+  - description: End
     layer: *layer_navigation
     combo:
       left: [ *key_a_left ]
       right: [ *key_t_right ]
-  - description: page_up
+  - description: Page Up
     layer: *layer_navigation
     combo:
       left: [ *key_s_left ]
       right: [ *key_s_right ]
-  - description: page_down
+  - description: Page Down
     layer: *layer_navigation
     combo:
       left: [ *key_o_left ]
@@ -583,42 +583,42 @@ keymap:
 #####
 # Mouse
 #####
-  - description: mouse_move_up
+  - description: Up
     layer: *layer_mouse
     combo:
       left: [ *key_r_left ]
       right: [ *key_r_right ]
-  - description: mouse_move_down
+  - description: Down
     layer: *layer_mouse
     combo:
       left: [ *key_y_left ]
       right: [ *key_y_right ]
-  - description: mouse_move_left
+  - description: Left
     layer: *layer_mouse
     combo:
       left: [ *key_i_left ]
       right: [ *key_e_right ]
-  - description: mouse_move_right
+  - description: Right
     layer: *layer_mouse
     combo:
       left: [ *key_e_left ]
       right: [ *key_i_right ]
-  - description: mouse_button_1
+  - description: Button 1
     layer: *layer_mouse
     combo:
       left: [ *key_a_left ]
       right: [ *key_a_right ]
-  - description: mouse_button_2
+  - description: Button 2
     layer: *layer_mouse
     combo:
       left: [ *key_t_left ]
       right: [ *key_t_right ]
-  - description: mouse_wheel_up
+  - description: Wheel Up
     layer: *layer_mouse
     combo:
       left: [ *key_s_left ]
       right: [ *key_s_right ]
-  - description: mouse_wheel_down
+  - description: Wheel Down
     layer: *layer_mouse
     combo:
       left: [ *key_o_left ]
