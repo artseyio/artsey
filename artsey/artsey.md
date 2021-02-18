@@ -1,4 +1,4 @@
-# ARTSEY.IO Cheat Sheet
+# ARTSEY.IO Detailed Layout
 
 ## Version: v0.8
 
@@ -29,31 +29,31 @@
 | symbols | 2 |
 | parentheticals | 3 |
 | navigation | 4 |
-| f_one_six | 5 |
-| f_seven_twelve | 6 |
+| f one six | 5 |
+| f seven twelve | 6 |
 | mouse | 7 |
 | custom | 8 |
 
 | Character | Layer | Combo |
 | --------- | ----- | ----- |
-| layer_numbers | base | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
-| layer_symbols | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
-| layer_parentheticals | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| layer_navigation | base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| layer_f_one_six | numbers | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
-| layer_f_seven_twelve | numbers | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| layer_mouse | base | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
-| layer_custom | custom | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| shift_left | global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
+| layer numbers | base | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
+| layer symbols | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| layer parentheticals | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
+| layer navigation | base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| layer f one six | numbers | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
+| layer f seven twelve | numbers | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| layer mouse | base | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
+| layer custom | custom | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| shift left | global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
 | enter | global | **Right**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br> |
 | space | global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
 | backspace | global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
 | escape | global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
-| control_left | global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |
-| gui_left | global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
-| alt_left | global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| shift_lock | global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
-| caps_lock | base | **Right**<br>⚫⚫⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚫⚫<br> |
+| control left | global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| gui left | global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
+| alt left | global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| shift lock | global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
+| caps lock | base | **Right**<br>⚫⚫⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚫⚫<br> |
 | a | base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
 | b | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br> |
 | c | base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br> |
@@ -107,34 +107,34 @@
 | = | symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
 | ? | symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
 | ! | symbols | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
-| arrow_up | navigation | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
-| arrow_down | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| arrow_left | navigation | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| arrow_right | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| arrow up | navigation | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| arrow down | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| arrow left | navigation | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| arrow right | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
 | home | navigation | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
 | end | navigation | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| page_up | navigation | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
-| page_down | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| mouse_move_up | mouse | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
-| mouse_move_down | mouse | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
-| mouse_move_left | mouse | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| mouse_move_right | mouse | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
-| mouse_button_1 | mouse | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| mouse_button_2 | mouse | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
-| mouse_wheel_up | mouse | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
-| mouse_wheel_down | mouse | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| F1 | f_one_six | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| F2 | f_one_six | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
-| F3 | f_one_six | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
-| F4 | f_one_six | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
-| F5 | f_one_six | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
-| F6 | f_one_six | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| F7 | f_seven_twelve | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| F8 | f_seven_twelve | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
-| F9 | f_seven_twelve | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
-| F10 | f_seven_twelve | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
-| F11 | f_seven_twelve | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
-| F12 | f_seven_twelve | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| page up | navigation | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
+| page down | navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| mouse move up | mouse | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| mouse move down | mouse | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
+| mouse move left | mouse | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| mouse move right | mouse | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| mouse button 1 | mouse | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
+| mouse button 2 | mouse | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
+| mouse wheel up | mouse | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
+| mouse wheel down | mouse | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| F1 | f one six | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
+| F2 | f one six | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| F3 | f one six | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
+| F4 | f one six | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| F5 | f one six | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
+| F6 | f one six | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| F7 | f seven twelve | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
+| F8 | f seven twelve | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| F9 | f seven twelve | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
+| F10 | f seven twelve | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| F11 | f seven twelve | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
+| F12 | f seven twelve | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
 | Mute | custom | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
 | Insert | custom | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
 | Right Control | custom | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
