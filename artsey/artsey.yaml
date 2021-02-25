@@ -15,6 +15,7 @@ version: v0.8
 changelog:
   - Shift lock is now R + Y
   - Add caps lock as O+I+Y+A
+  - Add ! as S + O
   - Add question mark to O on symbols layer
   - Moved page up/down to navigation layer
   - Add mouse wheel up/down to mouse layer
@@ -465,6 +466,11 @@ keymap:
     combo:
       left: [ *key_a_left , *key_i_left ]
       right: [ *key_a_right , *key_i_right ]
+  - description: "!"
+    layer: *layer_base
+    combo:
+      left: [ *key_s_left , *key_o_left ]
+      right: [ *key_s_right , *key_o_right ]
   - description: "/"
     layer: *layer_base
     combo:

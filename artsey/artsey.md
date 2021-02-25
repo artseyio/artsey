@@ -93,6 +93,7 @@
 | ' | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚫⚪<br> |
 | . | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br> |
 | , | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br> |
+| ! | Base | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
 | / | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br> |
 | ( | Parentheticals | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
 | ) | Parentheticals | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
