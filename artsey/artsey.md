@@ -5,7 +5,8 @@
 ## Changelog
 
 - Shift lock is now R + Y
-- Add caps lock as O+I+Y+A
+- Add caps lock as O + I + Y + A
+- Add ! as S + O
 - Add question mark to O on symbols layer
 - Moved page up/down to navigation layer
 - Add mouse wheel up/down to mouse layer
@@ -16,6 +17,8 @@
 - Convert all mod keys (shift, ctrl, etc) to be leader keys
 - Add layer scopes to keys, including a 'global scope'
 - Layout ctrl/alt/gui as LEFT side keys to avoid possible confusion when right/left forms of these keys makes a difference for users
+- Bluetooth Next Profile added to A + E + S + O
+- Bluetooth Clear Profile added to R + Y + T + I
 
 ## Layers
 
@@ -53,6 +56,8 @@
 | GUI | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | Alt | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
 | Shift Lock | Global | **Right**<br>⚪⚫⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚫⚪<br> |
+| Bluetooth Next Profile | Global | **Right**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br> |
+| Bluetooth Clear Profile | Global | **Right**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br> |
 | Caps Lock | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚫⚫⚪<br> |
 | A | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
 | B | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br> |
