@@ -7,6 +7,8 @@
 - Shift lock is now R + Y
 - Add caps lock as O + I + Y + A
 - Add ! as T + I
+- Add ! to symbol layer
+- Add ? to symbol layer
 - Add question mark to O on symbols layer
 - Moved page up/down to navigation layer
 - Add mouse wheel up/down to mouse layer
@@ -106,13 +108,13 @@
 | ] | Parentheticals | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | { | Parentheticals | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
 | } | Parentheticals | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| " | Symbols | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| \ | Symbols | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
 | ; | Symbols | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
 | ` | Symbols | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
 | - | Symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | = | Symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| ? | Symbols | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| ! | Symbols | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br> |
+| ? | Symbols | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| ! | Symbols | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
 | Up | Navigation | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
 | Down | Navigation | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | Left | Navigation | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
