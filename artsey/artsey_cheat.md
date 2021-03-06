@@ -6,7 +6,7 @@
 
 - Shift lock is now R + Y
 - Add caps lock as O + I + Y + A
-- Add ! as S + O
+- Add ! as T + I
 - Add question mark to O on symbols layer
 - Moved page up/down to navigation layer
 - Add mouse wheel up/down to mouse layer
@@ -42,19 +42,19 @@
 
 | Character | Layer | Combo |
 | --------- | ----- | ----- |
-| GUI | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
-| Backspace | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
-| Enter | Global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
-| Bluetooth Next Profile | Global | **Right**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br> |
 | Shift Lock | Global | **Right**<br>⚪⚫⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚫⚪<br> |
-| Layer - Custom | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| Shift | Global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
 | Space | Global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
-| Escape | Global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
-| Bluetooth Clear Profile | Global | **Right**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br> |
+| GUI | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | Alt | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
-| Layer - Mouse | Global | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
+| Escape | Global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
+| Bluetooth Next Profile | Global | **Right**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br> |
+| Bluetooth Clear Profile | Global | **Right**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br> |
+| Shift | Global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
+| Enter | Global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
+| Layer - Custom | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
 | Control | Global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| Backspace | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
+| Layer - Mouse | Global | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
 ## Layer: Base
 
 ### Keys
@@ -77,30 +77,30 @@
 
 | Character | Layer | Combo |
 | --------- | ----- | ----- |
-| ! | Base | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| L | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br> |
-| Q | Base | **Right**<br>⚫⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚫<br>⚪⚪⚪⚪<br> |
 | D | Base | **Right**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br> |
-| W | Base | **Right**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br> |
-| U | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br> |
-| X | Base | **Right**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br> |
-| Caps Lock | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚫⚫⚪<br> |
-| ' | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚫⚪<br> |
-| , | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br> |
-| P | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚫<br> |
-| B | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br> |
-| J | Base | **Right**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br> |
-| M | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br> |
-| G | Base | **Right**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br> |
-| F | Base | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br> |
-| . | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br> |
-| N | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br> |
-| K | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br> |
+| ! | Base | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚫⚪⚪<br> |
+| Z | Base | **Right**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br> |
 | C | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br> |
+| / | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br> |
+| G | Base | **Right**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚪⚪⚪<br> |
+| W | Base | **Right**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚫<br>⚪⚪⚪⚪<br> |
 | H | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br> |
 | V | Base | **Right**<br>⚪⚫⚪⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚪⚫⚪<br>⚪⚪⚪⚪<br> |
-| / | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br> |
-| Z | Base | **Right**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚫<br>⚪⚪⚪⚪<br> |
+| ' | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚫⚪<br> |
+| L | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br> |
+| P | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚫<br> |
+| Q | Base | **Right**<br>⚫⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚫<br>⚪⚪⚪⚪<br> |
+| U | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚪<br> |
+| B | Base | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚫<br> |
+| J | Base | **Right**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br> |
+| Caps Lock | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚫⚫⚪<br> |
+| , | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br> |
+| F | Base | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚫<br>⚪⚪⚪⚪<br> |
+| M | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚪<br> |
+| K | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚫⚪<br> |
+| X | Base | **Right**<br>⚪⚫⚫⚫<br>⚪⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚪<br> |
+| . | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br> |
+| N | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚪⚪<br> |
 ## Layer: Numbers
 
 ### Keys
