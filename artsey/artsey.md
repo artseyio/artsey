@@ -52,6 +52,7 @@
 | Shift | Global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
 | Enter | Global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
 | Space | Global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
+| Tab | Global | **Right**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br> |
 | Backspace | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
 | Escape | Global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
 | Control | Global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |

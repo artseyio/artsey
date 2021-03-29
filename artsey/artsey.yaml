@@ -231,6 +231,11 @@ keymap:
     combo:
       left: [ *key_e_left , *key_y_left , *key_i_left , *key_o_left ]
       right: [ *key_e_right , *key_y_right , *key_i_right , *key_o_right ]
+  - description: Tab
+    layer: *layer_global
+    combo:
+      left: [ *key_a_left , *key_r_left , *key_t_left , *key_o_left ]
+      right: [ *key_a_right , *key_r_right , *key_t_right , *key_o_right ]
   - description: Backspace
     layer: *layer_global
     combo: 
