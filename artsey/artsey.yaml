@@ -18,13 +18,12 @@ changelog:
   - Add ! as T + I
   - Add ! to symbol layer
   - Add ? to symbol layer
-  - Add question mark to O on symbols layer
+  - Add question mark to symbols layer
   - Moved page up/down to navigation layer
   - Add mouse wheel up/down to mouse layer
   - Add 'custom' layer so users can add additional items if desired (included custom layer is an *example*)
   - Custom layer key binding is S+O
-  - Enhance F1-12 so they are on layers off the number layer and ensure all 12 are present
-  - Make layers activate when held
+  - Make layers activate only when actication key is held
   - Convert all mod keys (shift, ctrl, etc) to be leader keys
   - Add layer scopes to keys, including a 'global scope'
   - Layout ctrl/alt/gui as LEFT side keys to avoid possible confusion when right/left forms of these keys makes a difference for users
@@ -60,18 +59,12 @@ layers:
   - &layer_navigation
     layer: Navigation
     index: 4
-  - &layer_f_one_six
-    layer: F1 - F6
-    index: 5
-  - &layer_f_seven_twelve 
-    layer: F7 - F12
-    index: 6
   - &layer_mouse
     layer: Mouse
-    index: 7
+    index: 5
   - &layer_custom
     layer: Custom
-    index: 8
+    index: 6
 # The main ARTSEY key positions
 #   The x,y coordinates are ZERO indexed starting in the upper left most key position
 #     0,0  0,1  0,2  0,3
@@ -174,41 +167,36 @@ keymap:
 # Layer Toggles
 #####
   - description: Layer - Numbers
-    layer: *layer_global
+    layer: *layer_base
     combo:
       left: [ *key_s_left ]
       right: [ *key_s_right ]
   - description: Layer - Symbols
-    layer: *layer_global
+    layer: *layer_base
     combo:
       left: [ *key_e_left ]
       right: [ *key_e_right ]
   - description: Layer - Parentheticals
-    layer: *layer_global
+    layer: *layer_base
     combo:
       left: [ *key_a_left ]
       right: [ *key_a_right ]
   - description: Layer - Navigation
     layer: *layer_global
     combo:
-      left: [ *key_o_left ]
-      right: [ *key_o_right ]
-  - description: Layer - F1 - F6
-    layer: *layer_numbers
-    combo:
-      left: [ *key_s_left ]
-      right: [ *key_s_right ]
-  - description: Layer - F7 - F12
-    layer: *layer_numbers
-    combo:
-      left: [ *key_o_left ]
-      right: [ *key_o_right ]
+      left: [ *key_r_left , *key_e_left, *key_i_left ]
+      right: [ *key_r_right , *key_e_right , *key_i_right ]
   - description: Layer - Mouse
     layer: *layer_global
     combo:
       left: [ *key_a_left , *key_t_left , *key_y_left ]
       right: [ *key_a_right , *key_t_right , *key_y_right ]
-  - description: Layer - Custom
+  - description: Layer - Custom (Hold)
+    layer: *layer_base
+    combo:
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
+  - description: Layer - Custom (Toggle)
     layer: *layer_global
     combo:
       left: [ *key_s_left , *key_o_left ]
@@ -543,18 +531,18 @@ keymap:
   - description: "-"
     layer: *layer_symbols
     combo:
-      left: [ *key_y_left ]
-      right: [ *key_y_right ]
+      left: [ *key_i_left ]
+      right: [ *key_i_right ]
   - description: "="
     layer: *layer_symbols
     combo:
-      left: [ *key_i_left ]
-      right: [ *key_i_right ]
+      left: [ *key_o_left ]
+      right: [ *key_o_right ]
   - description: "?"
     layer: *layer_symbols
     combo:
-      left: [ *key_e_left ]
-      right: [ *key_e_right ]
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
   - description: "!"
     layer: *layer_symbols
     combo:
@@ -647,69 +635,6 @@ keymap:
       left: [ *key_o_left ]
       right: [ *key_o_right ]
 #####
-# Function Keys
-#####
-  - description: F1
-    layer: *layer_f_one_six
-    combo:
-      left: *key_number_one_left
-      right: *key_number_one_right
-  - description: F2
-    layer: *layer_f_one_six
-    combo:
-      left: *key_number_two_left
-      right: *key_number_two_right
-  - description: F3
-    layer: *layer_f_one_six
-    combo:
-      left: *key_number_three_left
-      right: *key_number_three_right
-  - description: F4
-    layer: *layer_f_one_six
-    combo:
-      left: *key_number_four_left
-      right: *key_number_four_right
-  - description: F5
-    layer: *layer_f_one_six
-    combo:
-      left: *key_number_five_left
-      right: *key_number_five_right
-  - description: F6
-    layer: *layer_f_one_six
-    combo:
-      left: *key_number_six_left
-      right: *key_number_six_right
-  - description: F7
-    layer: *layer_f_seven_twelve
-    combo:
-      left: *key_number_one_left
-      right: *key_number_one_right
-  - description: F8
-    layer: *layer_f_seven_twelve
-    combo:
-      left: *key_number_two_left
-      right: *key_number_two_right
-  - description: F9
-    layer: *layer_f_seven_twelve
-    combo:
-      left: *key_number_three_left
-      right: *key_number_three_right
-  - description: F10
-    layer: *layer_f_seven_twelve
-    combo:
-      left: *key_number_four_left
-      right: *key_number_four_right
-  - description: F11
-    layer: *layer_f_seven_twelve
-    combo:
-      left: *key_number_five_left
-      right: *key_number_five_right
-  - description: F12
-    layer: *layer_f_seven_twelve
-    combo:
-      left: *key_number_six_left
-      right: *key_number_six_right
-#####
 # Custom Layer
 #####
   - description: Mute
@@ -722,16 +647,11 @@ keymap:
     combo:
       left: [ *key_r_left ]
       right: [ *key_r_right ]
-  - description: Right Control
+  - description: Volume Up
     layer: *layer_custom
     combo:
       left: [ *key_t_left ]
       right: [ *key_t_right ]
-  - description: Volume Up
-    layer: *layer_custom
-    combo:
-      left: [ *key_s_left ]
-      right: [ *key_s_right ]
   - description: Right Shift
     layer: *layer_custom
     combo:
@@ -742,13 +662,8 @@ keymap:
     combo:
       left: [ *key_y_left ]
       right: [ *key_y_right ]
-  - description: Right Alt
+  - description: Volume Down
     layer: *layer_custom
     combo:
       left: [ *key_i_left ]
       right: [ *key_i_right ]
-  - description: Volumn Down
-    layer: *layer_custom
-    combo:
-      left: [ *key_o_left ]
-      right: [ *key_o_right ]
