@@ -9,11 +9,9 @@
 - Add ! as T + I
 - Add ! to symbol layer
 - Add ? to symbol layer
-- Add question mark to symbols layer
 - Moved page up/down to navigation layer
 - Add mouse wheel up/down to mouse layer
 - Add 'custom' layer so users can add additional items if desired (included custom layer is an *example*)
-- Custom layer key binding is S+O
 - Make layers activate only when actication key is held
 - Convert all mod keys (shift, ctrl, etc) to be leader keys
 - Add layer scopes to keys, including a 'global scope'
@@ -43,8 +41,7 @@
 | Layer - Parentheticals | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
 | Layer - Navigation | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚫⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚫⚪⚫<br> |
 | Layer - Mouse | Global | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
-| Layer - Custom (Hold) | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
-| Layer - Custom (Toggle) | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| Layer - Custom | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
 | Shift | Global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
 | Enter | Global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
 | Space | Global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
