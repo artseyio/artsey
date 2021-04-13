@@ -14,7 +14,8 @@ To achieve full functionality, combos are used for many of the letters, symbols,
 
 ## Layout Diagram
 
-![Layout Diagram](https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg)  
+<a href="dhttps://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg"><img src="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg" alt="ARTSEY Layout Diagram" style="width:400px"></a>
+
 
 ## Hardware Design
 
