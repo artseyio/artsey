@@ -1,5 +1,6 @@
 ``Current Version: 0.8``  
-[Layout Diagram](https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg)  
+
+#[Layout Diagram](https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg)  
 
 # Introduction
 
