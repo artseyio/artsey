@@ -16,7 +16,7 @@ To achieve full functionality, combos are used for many of the letters, symbols,
 
 ## Layout Diagram
 
-### Click to Enlarge
+Click to Enlarge
 <a href="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg"><img src="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg" alt="ARTSEY Layout Diagram" style="width:450px"></a>
 
 
