@@ -11,5 +11,6 @@ include:
   - zmk.md
   - qmk.md
 
-title: [ARTSEY.io]
-description: [ARTSEY.io: An Easy, Fast, Open One-Handed Keyboard System]
+title: ARTSEY.io
+description: ARTSEY.io: An Easy, Fast, Open One-Handed Keyboard System
+logo: logo.png
