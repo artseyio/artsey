@@ -1,7 +1,5 @@
 ``Current Version: 0.8``  
 
-#[Layout Diagram](https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg)  
-
 # Introduction
 
 ARTSEY is a one-handed keyboard system using 8 keys in a 2x4 layout. The system is designed to be easy to learn, comfortable to use, and fast enough for practical use. 
@@ -14,6 +12,10 @@ To achieve full functionality, combos are used for many of the letters, symbols,
 
 [Learn more about the design of the system](https://artsey.io/design.html).  
 
+## Layout Diagram
+
+![Layout Diagram](https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg)  
+
 ## Hardware Design
 
 Since only four fingers are used, the thumb is free to stabilize and hold the board. This simplifies the hardware design for portable hand-held keyboards made for ARTSEY. These boards can be made as small as a credit card using standard mechanical keyboard switches.
@@ -23,6 +25,5 @@ Since only four fingers are used, the thumb is free to stabilize and hold the bo
 Implementations of ARTSEY are available on our github page for QMK ([QMK Firmware Repository](https://github.com/artseyio/artsey-qmk)) and ZMK ([ZMK Firmware Repository](https://github.com/artseyio/zmk-artsey)). 
 
 ## Community
-For more info and to get in touch:  
-[Join our community on discord!](https://discord.gg/raqVZXYmTj)
+For more info and to get in touch: [Join our community on discord!](https://discord.gg/raqVZXYmTj)
 
