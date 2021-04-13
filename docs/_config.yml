@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal
+
+title: ARTSEY.io
+description: ARTSEY.io: An Easy, Fast, Open One-Handed Keyboard System
   
 plugins:
   - jekyll-relative-links
