@@ -1,4 +1,6 @@
-# Choosing the Base Letters
+# Design of the System
+
+## The Base Letters
 
 The first task in designing the system was choosing the base letters. The main goal was getting common letters on the base keys. The secondary goal was to provide a memorable name for the system that could also serve as the URL. 
 
@@ -10,7 +12,7 @@ Y is not a particularly common letter in English. However, since 18 letters had 
 ## Analysis
 Based on the Norvig analysis, with ARTSEYIO on the base layer, over 60% of typing (in English) occurs on non-chorded keys.
 
-# The Alpha Combos
+## The Alpha Combos
 
 There were two goals in designing the alpha combos. The first goas was making them easy to memorize, and the second goal was to make them efficient and comfortable enough for practical use without having any alpha combo use keys from two rows at the same time.  
 
