@@ -7,9 +7,8 @@ relative_links:
   collections: true
 include:
   - index.md
-  - contact.md
-  - zmk.md
-  - qmk.md
+  - design.md
+
 
 title: "ARTSEY"
 description: "An Easy, Fast, Open One-Handed Keyboard System"

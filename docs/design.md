@@ -10,9 +10,11 @@ Y is not a particularly common letter in English. However, since 18 letters had 
 ## Analysis
 Based on the Norvig analysis, with ARTSEYIO on the base layer, over 60% of typing (in English) occurs on non-chorded keys.
 
-# Memorizing the Alpha Combos
+# The Alpha Combos
 
-Memorizing the alpha combos may seem difficult. It is easier to learn the letters in groups. There are patterns that will help with this:
+There were two goals in designing the alpha combos. The first goas was making them easy to memorize, and the second goal was to make them efficient and comfortable enough for practical use without having any alpha combo use keys from two rows at the same time.  
+
+Generally, more common letters are on "easier" combos and less common letters are on combos involving more keys, weaker fingers, or less comfortable patterns. Memorizing the alpha combos may seem difficult. It is easier to learn the letters in groups. There are patterns that will help with this:  
 
 Notice the relationship between the first **B** chord option and **C**. They are only one key different and the B chord looks a little like a b when viewed from the side. Note that the second B chord is a little easier to hit so you may want to migrate to using that chord once you have everything memorized.   
 
