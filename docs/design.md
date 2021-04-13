@@ -19,7 +19,7 @@ Based on the Norvig analysis, with ARTSEYIO on the base layer, over 60% of typin
 
 There were two goals in designing the alpha combos. The first goas was making them easy to memorize, and the second goal was to make them efficient and comfortable enough for practical use without having any alpha combo use keys from two rows at the same time.  
 
-Generally, more common letters are on "easier" combos and less common letters are on combos involving more keys, weaker fingers, or less comfortable patterns. Memorizing the alpha combos may seem difficult. It is easier to learn the letters in groups. You might fond your own patten in the letters to leverage in memorization, but here are some to tet started: 
+Generally, more common letters are on "easier" combos and less common letters are on combos involving more keys, weaker fingers, or less comfortable patterns. Memorizing the alpha combos may seem difficult. It is easier to learn the letters in groups. You might find your own patten in the letters to leverage in memorization, but here are some to tet started: 
 
 **D**, **F**, and **G** are alphabetically close together and all very similar. The **F** looks like the top of a captial F and the **D** looks like the back of a captial D.    
 
