@@ -1,0 +1,12 @@
+theme: jekyll-theme-minimal
+  
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
+  - contact.md
+  - zmk.md
+  - qmk.md
