@@ -17,11 +17,11 @@ Based on the Norvig analysis, with ARTSEYIO on the base layer, over 60% of typin
 
 ## The Alpha Combos
 
-There were two goals in designing the alpha combos. The first goas was making them easy to memorize, and the second goal was to make them efficient and comfortable enough for practical use without having any alpha combo use keys from two rows at the same time.  
+There were two goals in designing the alpha combos. The first goal was making them easy to memorize, and the second goal was to make them efficient and comfortable enough for practical use without having any alpha combo use keys from two rows at the same time.  
 
-Generally, more common letters are on "easier" combos and less common letters are on combos involving more keys, weaker fingers, or less comfortable patterns. Memorizing the alpha combos may seem difficult. It is easier to learn the letters in groups. You might find your own patten in the letters to leverage in memorization, but here are some to tet started: 
+Generally, more common letters are on "easier" combos and less common letters are on combos involving more keys, weaker fingers, or less comfortable patterns. Memorizing the alpha combos may seem difficult. It is easier to learn the letters in groups. You might find your own patten in the letters to leverage in memorization, but here are some to get started: 
 
-**D**, **F**, and **G** are alphabetically close together and all very similar. The **F** looks like the top of a captial F and the **D** looks like the back of a captial D.    
+**D**, **F**, and **G** are alphabetically close together and all very similar. The **F** looks like the top of a capital F and the **D** looks like the back of a capital D.    
 
 **D**  
 ■■■□  
@@ -33,7 +33,7 @@ Generally, more common letters are on "easier" combos and less common letters ar
 □■■□  
 □□□□  
 
-Notice the relationship between **H** and **I**. Just remember "hi!" Plus, the H looks like the top of a captial H.    
+Notice the relationship between **H** and **I**. Just remember "hi!" Plus, the H looks like the top of a capital H.    
 
 **H**  
 □□□□  
@@ -42,7 +42,7 @@ Notice the relationship between **H** and **I**. Just remember "hi!" Plus, the H
 □□□□  
 □□■□  
 
-**K**, **L**, **M**, **N** are all on the bottom row. The relationship between **M** and **N** is especially easy to memorize. The **L** is just the **M** chord moveed over by one key and the **K** chord just removes one key from the **M** chord. 
+**K**, **L**, **M**, **N** are all on the bottom row. The relationship between **M** and **N** is especially easy to memorize. The **L** is just the **M** chord moved over by one key and the **K** chord just removes one key from the **M** chord. 
 
 **K**  
 □□□□  
@@ -57,7 +57,7 @@ Notice the relationship between **H** and **I**. Just remember "hi!" Plus, the H
 □□□□  
 □□■■  
 
-**P**, and **Q** are the same chord but on differnt rows. Plus, they look a bit like the lower-case version of the letter. 
+**P**, and **Q** are the same chord but on different rows. Plus, they look a bit like the lower-case version of the letter. 
 
 **P**  
 □□□□  
