@@ -8,7 +8,7 @@ ARTSEY is a one-handed keyboard system using 8 keys in a 2x4 layout. The system 
 
 # Use
 
-ARTSEY is a system for people of all abilities. The standard system can be fully operated by four fingers over a small range of motion. There are layouts for both left- and right-handed use. Almost any computer activity that can be done with a normal keyboard can also be acheived with ARTSEY. In fact, this website was written entirely with an ARTSEY board.  
+ARTSEY is a system for people of all abilities. The standard system can be fully operated by four fingers over a small range of motion. There are layouts for both left- and right-handed use. Almost any computer activity that can be done with a normal keyboard can also be achieved with ARTSEY. In fact, this website was written entirely with an ARTSEY board.  
 
 To achieve full functionality, combos are used for many of the letters, symbols, modifiers, and other commands available on a normal keyboard. While these combos might be intimidating at first, the basics of ARTSEY can be learned in under an hour. Many new ARTSEY users are able to operate their computers without referencing the layout diagram within the first few days of use. Typing speeds over 50wpm are possible with dedicated practice.  
 
