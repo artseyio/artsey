@@ -10,10 +10,10 @@ Using the excellent analysis by [Peter Norvig](http://norvig.com/mayzner.html) a
 IO stood out as a suitable URL suffix. Actual word prefixes like EARTHS, HEARTS, STERNA, ANTRES (thanks scrabble ~~cheating~~ helper website) were either too ordinary or not catchy. I wanted something unique and easy to remember. From here, I tried adding a few less-common letters. ARTSEY.IO rose to the top quickly.  
 
 ## Why Y? 
-Y is not a particularly common letter in English. However, since 18 letters had to be chorded anyway, I thought putting it on base was a reasonable compromise to have a memorable name and URL that would help new users memorize the base letters instantly.  
+Y is not a particularly common letter in English. However, since 18 letters had to be comboed anyway, I thought putting it on base was a reasonable compromise to have a memorable name and URL that would help new users memorize the base letters instantly.  
 
 ## Analysis
-Based on the Norvig analysis, with ARTSEYIO on the base layer, over 60% of typing (in English) occurs on non-chorded keys.  
+Based on the Norvig analysis, with ARTSEYIO on the base layer, over 60% of typing (in English) occurs on non-comboed keys.  
 
 ## The Alpha Combos
 
@@ -42,7 +42,7 @@ Notice the relationship between **H** and **I**. Just remember "hi!" Plus, the H
 □□□□  
 □□■□  
 
-**K**, **L**, **M**, **N** are all on the bottom row. The relationship between **M** and **N** is especially easy to memorize. The **L** is just the **M** chord moved over by one key and the **K** chord just removes one key from the **M** chord. 
+**K**, **L**, **M**, **N** are all on the bottom row. The relationship between **M** and **N** is especially easy to memorize. The **L** is just the **M** combo moved over by one key and the **K** combo just removes one key from the **M** combo. 
 
 **K**  
 □□□□  
@@ -57,7 +57,7 @@ Notice the relationship between **H** and **I**. Just remember "hi!" Plus, the H
 □□□□  
 □□■■  
 
-**P**, and **Q** are the same chord but on different rows. Plus, they look a bit like the lower-case version of the letter. 
+**P**, and **Q** are the same combo but on different rows. Plus, they look a bit like the lower-case version of the letter. 
 
 **P**  
 □□□□  
