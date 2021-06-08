@@ -1,23 +1,12 @@
 # ARTSEY.IO Detailed Layout
 
-## Version: v0.8
+## Version: v0.8.1
 
 ## Changelog
 
-- Shift lock is now R + Y
-- Add caps lock as O + I + Y + A
-- Add ! as T + I
-- Add ! to symbol layer
-- Add ? to symbol layer
-- Moved page up/down to navigation layer
-- Add mouse wheel up/down to mouse layer
-- Add 'custom' layer so users can add additional items if desired (included custom layer is an *example*)
-- Make layers activate only when actication key is held
-- Convert all mod keys (shift, ctrl, etc) to be leader keys
-- Add layer scopes to keys, including a 'global scope'
-- Layout ctrl/alt/gui as LEFT side keys to avoid possible confusion when right/left forms of these keys makes a difference for users
-- Bluetooth Next Profile added to A + E + S + O
-- Bluetooth Clear Profile added to R + Y + T + I
+- Bluetooth Profile selection changed to a dedicated layer with combo A + E + S + O
+- 6 bluetooth profiles exposed on the selection layer
+- 2 'extra keys' on bluetooth select layer added as customizable and bound to nothing by default
 
 ## Layers
 
@@ -31,6 +20,7 @@
 | Navigation | 4 |
 | Mouse | 5 |
 | Custom | 6 |
+| Bluetooth | 7 |
 
 ## Codes
 
@@ -42,6 +32,7 @@
 | Layer - Navigation | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚫⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚫⚪⚫<br> |
 | Layer - Mouse | Global | **Right**<br>⚫⚪⚫⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚫⚪⚫<br>⚪⚪⚫⚪<br> |
 | Layer - Custom | Base | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br> |
+| Layer - BT Selection | Global | **Right**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br> |
 | Shift | Global | **Right**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br> |
 | Enter | Global | **Right**<br>⚫⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚫<br> |
 | Space | Global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
@@ -131,3 +122,9 @@
 | Right Shift | Custom | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
 | Print Screen | Custom | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | Volume Down | Custom | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |
+| Profile 1 | Bluetooth | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |
+| Profile 2 | Bluetooth | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br> |
+| Profile 3 | Bluetooth | **Right**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚫⚪⚪<br>⚪⚪⚪⚪<br> |
+| Profile 4 | Bluetooth | **Right**<br>⚪⚪⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚪⚫<br> |
+| Profile 5 | Bluetooth | **Right**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br> |
+| Profile 6 | Bluetooth | **Right**<br>⚪⚪⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚪⚪<br>⚪⚫⚪⚪<br> |

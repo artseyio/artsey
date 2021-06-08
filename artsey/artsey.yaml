@@ -8,25 +8,14 @@
 #####
 # Version of ARTSETY this file defines
 #####
-version: v0.8
+version: v0.8.1
 #####
 # Changelog
 #####
 changelog:
-  - Shift lock is now R + Y
-  - Add caps lock as O + I + Y + A
-  - Add ! as T + I
-  - Add ! to symbol layer
-  - Add ? to symbol layer
-  - Moved page up/down to navigation layer
-  - Add mouse wheel up/down to mouse layer
-  - Add 'custom' layer so users can add additional items if desired (included custom layer is an *example*)
-  - Make layers activate only when actication key is held
-  - Convert all mod keys (shift, ctrl, etc) to be leader keys
-  - Add layer scopes to keys, including a 'global scope'
-  - Layout ctrl/alt/gui as LEFT side keys to avoid possible confusion when right/left forms of these keys makes a difference for users
-  - Bluetooth Next Profile added to A + E + S + O
-  - Bluetooth Clear Profile added to R + Y + T + I
+  - Bluetooth Profile selection changed to a dedicated layer with combo A + E + S + O
+  - 6 bluetooth profiles exposed on the selection layer
+  - 2 'extra keys' on bluetooth select layer added as customizable and bound to nothing by default
 #####
 # Timeouts (in miliseconds) recommended as defaults for firmware implementations
 #####
@@ -63,6 +52,9 @@ layers:
   - &layer_custom
     layer: Custom
     index: 6
+  - &layer_bt
+    layer: Bluetooth
+    index: 7
 # The main ARTSEY key positions
 #   The x,y coordinates are ZERO indexed starting in the upper left most key position
 #     0,0  0,1  0,2  0,3
@@ -194,6 +186,11 @@ keymap:
     combo:
       left: [ *key_o_left ]
       right: [ *key_o_right ]
+  - description: Layer - BT Selection
+    layer: *layer_global
+    combo:
+      left: [ *key_a_left , *key_s_left , *key_e_left , *key_o_left ]
+      right: [ *key_a_right , *key_s_right , *key_e_right , *key_o_right ]
 #####
 # Misc/Global/General Computer Keys
 #####
@@ -657,6 +654,39 @@ keymap:
       right: [ *key_y_right ]
   - description: Volume Down
     layer: *layer_custom
+    combo:
+      left: [ *key_i_left ]
+      right: [ *key_i_right ]
+#####
+# BT Profile Selection
+#####
+  - description: "Profile 1"
+    layer: *layer_bt
+    combo:
+      left: [ *key_a_left ]
+      right: [ *key_a_right ]
+  - description: "Profile 2"
+    layer: *layer_bt
+    combo:
+      left: [ *key_r_left ]
+      right: [ *key_r_right ]
+  - description: "Profile 3"
+    layer: *layer_bt
+    combo:
+      left: [ *key_t_left ]
+      right: [ *key_t_right ]
+  - description: "Profile 4"
+    layer: *layer_bt
+    combo:
+      left: [ *key_e_left ]
+      right: [ *key_e_right ]
+  - description: "Profile 5"
+    layer: *layer_bt
+    combo:
+      left: [ *key_y_left ]
+      right: [ *key_y_right ]
+  - description: "Profile 6"
+    layer: *layer_bt
     combo:
       left: [ *key_i_left ]
       right: [ *key_i_right ]
