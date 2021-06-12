@@ -4,6 +4,7 @@
 
 ## Changelog
 
+- Add forward delete to R+I combo (global)
 - Bluetooth Profile selection changed to a dedicated layer with combo A + E + S + O
 - 6 bluetooth profiles exposed on the selection layer
 - 2 'extra keys' on bluetooth select layer added as customizable and bound to nothing by default
@@ -38,12 +39,12 @@
 | Space | Global | **Right**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚪<br>⚫⚫⚫⚫<br> |
 | Tab | Global | **Right**<br>⚫⚫⚫⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚫⚫⚫<br>⚫⚪⚪⚪<br> |
 | Backspace | Global | **Right**<br>⚪⚫⚪⚪<br>⚫⚪⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚪⚫<br> |
+| Forward Delete | Global | **Right**<br>⚪⚫⚪⚪<br>⚪⚪⚫⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚫⚪⚪<br> |
 | Escape | Global | **Right**<br>⚫⚫⚪⚪<br>⚪⚪⚪⚫<br><br>**Left**<br>⚪⚪⚫⚫<br>⚫⚪⚪⚪<br> |
 | Control | Global | **Right**<br>⚪⚪⚪⚫<br>⚫⚪⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚫<br> |
 | GUI | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚫⚪⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚪⚫⚪<br> |
 | Alt | Global | **Right**<br>⚪⚪⚪⚫<br>⚪⚪⚫⚪<br><br>**Left**<br>⚫⚪⚪⚪<br>⚪⚫⚪⚪<br> |
 | Shift Lock | Global | **Right**<br>⚪⚫⚪⚪<br>⚪⚫⚪⚪<br><br>**Left**<br>⚪⚪⚫⚪<br>⚪⚪⚫⚪<br> |
-| Bluetooth Next Profile | Global | **Right**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br><br>**Left**<br>⚫⚪⚪⚫<br>⚫⚪⚪⚫<br> |
 | Bluetooth Clear Profile | Global | **Right**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br><br>**Left**<br>⚪⚫⚫⚪<br>⚪⚫⚫⚪<br> |
 | Caps Lock | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚫⚫⚫<br><br>**Left**<br>⚪⚪⚪⚫<br>⚫⚫⚫⚪<br> |
 | A | Base | **Right**<br>⚫⚪⚪⚪<br>⚪⚪⚪⚪<br><br>**Left**<br>⚪⚪⚪⚫<br>⚪⚪⚪⚪<br> |

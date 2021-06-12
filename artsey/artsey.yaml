@@ -13,6 +13,7 @@ version: v0.8.1
 # Changelog
 #####
 changelog:
+  - Add forward delete to R+I combo (global)
   - Bluetooth Profile selection changed to a dedicated layer with combo A + E + S + O
   - 6 bluetooth profiles exposed on the selection layer
   - 2 'extra keys' on bluetooth select layer added as customizable and bound to nothing by default
@@ -219,6 +220,11 @@ keymap:
     combo: 
       left: [ *key_r_left , *key_e_left ]
       right: [ *key_r_right , *key_e_right ]
+  - description: Forward Delete
+    layer: *layer_global
+    combo: 
+      left: [ *key_r_left , *key_i_left ]
+      right: [ *key_r_right , *key_i_right ]
   - description: Escape
     layer: *layer_global
     combo:
@@ -244,11 +250,6 @@ keymap:
     combo:
       left: [ *key_r_left , *key_y_left ]
       right: [ *key_r_right , *key_y_right ]
-  - description: Bluetooth Next Profile
-    layer: *layer_global
-    combo:
-      left: [ *key_a_left , *key_e_left , *key_s_left , *key_o_left ]
-      right: [ *key_a_right , *key_e_right , *key_s_right , *key_o_right ]
   - description: Bluetooth Clear Profile
     layer: *layer_global
     combo:
