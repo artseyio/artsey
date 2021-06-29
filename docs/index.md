@@ -20,9 +20,11 @@ Click to Enlarge
 <a href="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg"><img src="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg" alt="ARTSEY Layout Diagram" style="width:450px"></a>
 
 
-# Hardware Design
+# Hardware
 
-Since only four fingers are used, the thumb is free to stabilize and hold the board. This simplifies the hardware design for portable hand-held keyboards made for ARTSEY. These boards can be made as small as a credit card using standard mechanical keyboard switches.
+Since only four fingers are used, the thumb is free to stabilize and hold the board. This simplifies the hardware design for portable hand-held keyboards made for ARTSEY. These boards can be made as small as a credit card using standard mechanical keyboard switches. ARTSEY can also be implemented on existing boards that support QMK or ZMK as long as they have a 2x4 cluster of keys somewhere. 
+
+Members of the community have developed several boards specifically for use with ARTSEY. Files for our open-source board *Paintbrush* are available on [our GitHub page](https://github.com/artseyio/thepaintbrush). The files are free of charge for non-commercial use. Since the PCB is so small, the costs of manufacturing are usually under $1/each (before shipping). Memebers of [our discord](https://discord.gg/raqVZXYmTj) often organize small non-commercial group buys of the Paintbrush and other hardware for use with ARTSEY. 
 
 # Firmware
 
