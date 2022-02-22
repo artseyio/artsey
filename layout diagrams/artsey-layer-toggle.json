@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Artsey Layer Toggle",
+    "author": "KemoNine"
+  },
+  [
+    {
+      "a": 7
+    },
+    "\n\n\n\nUser 2",
+    "\n\n\n\nUser 1",
+    "Alt",
+    "Ctrl",
+    {
+      "x": 1
+    },
+    "Ctrl",
+    "Alt",
+    "\n\n\n\nUser 1",
+    "\n\n\n\nUser 2"
+  ],
+  [
+    "\n\n\n\nUser 4",
+    "\n\n\n\nUser 3",
+    "GUI",
+    "Shift",
+    {
+      "x": 1
+    },
+    "Shift",
+    "GUI",
+    "\n\n\n\nUser 3",
+    "\n\n\n\nUser 4"
+  ]
+]
