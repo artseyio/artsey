@@ -28,7 +28,7 @@ Members of the community have developed several boards specifically for use with
 
 # Firmware
 
-Implementations of ARTSEY are available on our github page for QMK ([QMK Firmware Repository](https://github.com/artseyio/artsey-qmk)) and ZMK ([ZMK Firmware Repository](https://github.com/artseyio/zmk-artsey)).  
+Implementations of ARTSEY are available on our github page for QMK ([QMK Firmware Repository](https://github.com/artseyio/qmk-artsey)) and ZMK ([ZMK Firmware Repository](https://github.com/artseyio/zmk-artsey)).  
 
 # Community
 For more info and to get in touch: [Join our community on discord!](https://discord.gg/raqVZXYmTj)
