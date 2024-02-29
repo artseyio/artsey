@@ -2,6 +2,8 @@
 
 # News
 
+```2/29/2024: Happy leap day! We have released ARTSEY ver. 0.9 candidate layout below early firmware files are available in the ([QMK Firmware Repository](https://github.com/artseyio/qmk-artsey)). ``` 
+
 ```2/28/2024: We are actively developing ARTSEY with new qmk firmware and some other improvements. Version 0.9 will include improved modifier action using sticky modifiers to help with things like alt+tabbing through windows. We will also be testing new punctuation placement and other improvements.``` 
 
 # Introduction
