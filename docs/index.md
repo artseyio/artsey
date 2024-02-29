@@ -1,8 +1,12 @@
 ``Current Version: 0.8``  
 
+# News
+
+```2/28/2024: We are actively developing ARTSEY with new qmk firmware and some adjustments towards releasing version 0.9.``` 
+
 # Introduction
 
-ARTSEY is a one-handed keyboard system using 8 keys in a 2x4 layout. The system is designed to be easy to learn, comfortable to use, and fast enough for practical use.  
+ARTSEY is a one-handed keyboard system created by [Greg Leo](https://gregcleo.com) using 8 keys in a 2x4 layout. The system is designed to be easy to learn, comfortable to use, and fast enough for practical use.  
 
 [Watch a Video Introduction](https://youtu.be/dicYf7OiS3Q)
 
