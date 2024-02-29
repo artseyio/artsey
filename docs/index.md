@@ -2,7 +2,7 @@
 
 # News
 
-```2/28/2024: We are actively developing ARTSEY with new qmk firmware and some adjustments towards releasing version 0.9.``` 
+```2/28/2024: We are actively developing ARTSEY with new qmk firmware and some other improvements. Version 0.9 will include improved modifier action using sticky modifiers to help with things like alt+tabbing through windows. We will also be testing new punctuation placement and other improvements.``` 
 
 # Introduction
 
