@@ -24,11 +24,11 @@ To achieve full functionality, combos are used for many of the letters, symbols,
 
 Click to Enlarge
 
-## **Current:** 0.8.1
-<a href="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg"><img src="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg" alt="ARTSEY Layout Diagram" style="width:450px"></a>
-
 ## **Beta:** 0.9.0
 <a href="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/beta.jpg"><img src="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/beta.jpg" alt="ARTSEY Layout Diagram" style="width:450px"></a>
+
+## **Current:** 0.8.1
+<a href="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg"><img src="https://github.com/artseyio/artsey/raw/main/layout%20diagrams/current.jpg" alt="ARTSEY Layout Diagram" style="width:450px"></a>
 
 # Hardware
 
