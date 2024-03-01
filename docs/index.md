@@ -2,9 +2,7 @@
 
 # News
 
-```2/29/2024: Happy leap day! We have released ARTSEY ver. 0.9 candidate layout below early firmware files are available in the ([QMK Firmware Repository](https://github.com/artseyio/qmk-artsey)). ``` 
-
-```2/28/2024: We are actively developing ARTSEY with new qmk firmware and some other improvements. Version 0.9 will include improved modifier action using sticky modifiers to help with things like alt+tabbing through windows. We will also be testing new punctuation placement and other improvements.``` 
+- **2/29/2024**: Happy leap day! We have released ARTSEY ver. 0.9 candidate layout below. Early firmware files are available in the [QMK Firmware Repository](https://github.com/artseyio/qmk-artsey). Version 0.9 retains most of the combos of version 0.8.1, but a few punctuation combos which have been adjusted to make them easier to remember. Modifier behavior has also been improved to help with things like alt+tabbing through windows using "sticky" mods. We have also improved the layout diagram to make it easier to read by grouping combos by action and shape. The patterns in the combo shapes should now be easier to identify to help you more easily learn and remember the layout. 
 
 # Introduction
 
